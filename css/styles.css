@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik&display=swap'); 
+   
+    
+.container{
+  
+    padding: 20px;
+}
+header{
+    /*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);*/
+    
+    background-color:#fff;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center ;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow:0 6px 10px 0 rgba(128,98,96,.16);
+   /* position: sticky;
+    top: 5px;*/
+}
+.menu{
+    height: inherit;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul{
+    display: flex;
+    height: inherit;
+}
+header ul li{
+    height: inherit;
+}
+header a{
+    height: 30px;
+    margin: 25px 0;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+header a:hover{
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow:0 6px 10px 0 rgba(128,98,96,.16);
+}
+
+.container-hero{
+    display: flex;
+    justify-content: space-around;
+}
+.hero{
+    
+}
+.services-grid{
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+    grid-gap: 60px;
+    
+}
+.contacto{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-align:center;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 75px;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    padding: 10px 20px;
+    margin: 0;
+  }
+.service-d{
+    padding: 20px;
+    border: 2px #e0dada solid;
+    border-radius: 10px;
+    /*box-shadow: 10px 10px #e2dcdc;*/
+    box-shadow:0 6px 10px 0 rgba(128,98,96,.16);
+}  
+.section{
+    padding: 40px;
+}
+
+
+@media screen and (max-width: 1024px){
+    body{
+        padding: 0;
+    }
+    .header{
+        margin: 0 5%;
+        width: 80%;
+        position: sticky;
+        top: 0px;
+        justify-content: center;
+    }
+    h1{
+        font-size: 53px;
+    }
+    .container-hero{
+        justify-content: center;
+        align-items: center;
+    }
+}
