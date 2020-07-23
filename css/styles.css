@@ -109,9 +109,6 @@ body{
 
 
 @media screen and (max-width: 1024px){
-    body{
-        padding: 0;
-    }
     .header{
       /*  margin: 0 5%;
         width: 80%;*/
