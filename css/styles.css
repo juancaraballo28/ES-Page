@@ -135,6 +135,9 @@ body{
     .header{
         padding: 0 30px;
     }
+    .header a{
+        font-size: small;
+    } 
     h1{
         font-size: 35px;
     }
